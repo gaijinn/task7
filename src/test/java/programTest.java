@@ -44,6 +44,6 @@ public class programTest {
 
     @Test
     public void area_with_parameters_three_three_three_is_eual_to_fixtyFour(){
-        assertEquals(5,rectangle3D.getArea());
+        assertEquals(5,rectangle3D.getArea(),0.5);
     }
 }
